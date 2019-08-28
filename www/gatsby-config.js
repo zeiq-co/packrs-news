@@ -1,29 +1,29 @@
 require("dotenv").config();
 
 const siteMetadata = {
-  title: `Novela by Narative`,
-  name: `Narative`,
-  siteUrl: `https://novela.narative.co`,
+  title: `News updates by Packrs`,
+  name: `Packrs`,
+  siteUrl: `https://news.packrs.co`,
   description: `This is my description that will be used in the meta tags and important for search results`,
   hero: {
-    heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+    heading: `Welcome to Packrs, a page about our updates and news.`,
     maxWidth: 652,
   },
   social: [
     {
-      url: `https://twitter.com/narative`,
+      url: `https://twitter.com/PackrsOfficial`,
     },
     {
-      url: `https://github.com/narative`,
+      url: `https://github.com/zeiq-co`,
     },
     {
-      url: `https://instagram.com/narative.co`,
+      url: `https://www.instagram.com/packrs_official`,
     },
     {
-      url: `https://www.linkedin.com/company/narative/`,
+      url: `https://www.linkedin.com/company/packrs/`,
     },
     {
-      url: `https://dribbble.com/narativestudio`,
+      url: `https://www.facebook.com/PackrsOfficial`,
     },
     {
       url: `https://youtube.com`,
@@ -68,7 +68,7 @@ const plugins = [
     resolve: "gatsby-plugin-mailchimp",
     options: {
       endpoint:
-        "https://narative.us19.list-manage.com/subscribe/post?u=65ef169332a03669b9538f6ef&amp;id=c55c426282",
+        "",
     },
   },
 ];
